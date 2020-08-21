@@ -1,0 +1,27 @@
+.clt_playdiv {
+  opacity: 0;
+  position: absolute;
+  bottom: 16px;
+  z-index: 2;
+  border-radius: 500px;
+  right: 16px;
+}
+
+.clt_playbtn {
+  --size: 40px;
+  border: 0;
+  border-radius: 500px;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: var(--size);
+  width: var(--size);
+  color: #fff;
+}
+.clt_playdiv .clt_playbtn {
+  background-color: #1db954;
+}
+.tracklist-play-pause .clt_playbtn {
+  background-color: #070707;
+}

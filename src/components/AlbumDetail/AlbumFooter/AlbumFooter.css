@@ -1,0 +1,74 @@
+.tracklist-row {
+  color: #b3b3b3;
+  display: flex;
+  background-color: #070707;
+  cursor: pointer;
+}
+.tracklist-row:hover {
+  background-color: black;
+  color: white;
+  font-size: 1.01em;
+}
+
+.tracks {
+  max-height: 250px;
+  margin: 10px;
+  border-radius: 25px;
+  overflow-y: scroll;
+}
+@media (min-width: 600px) {
+  .tracks {
+    margin: 50px;
+  }
+}
+
+.icon-play {
+  margin-top: 20px;
+  color: #fff;
+  height: 1em;
+  width: 1em;
+  transform: translateY(5px);
+}
+.tracklist-name {
+  text-decoration: none;
+  color: #fff;
+}
+.tracklist-duration {
+  text-align: center;
+  margin-left: 20px;
+  padding-top: 25px;
+}
+.tracklist-play-pause {
+  text-align: center;
+  margin: 15px auto;
+}
+.trackcon {
+  display: inline-flex;
+  margin: 0 auto;
+
+  width: 80%;
+}
+.track-name-wrapper {
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.style1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #121212;
+}
+.style1::-webkit-scrollbar {
+  width: 12px;
+  background-color: #121212;
+}
+.style1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #505163;
+}
+.tracklist-row:hover .clt_playbtn {
+  background-color: #1db954;
+}

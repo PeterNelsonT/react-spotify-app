@@ -1,0 +1,23 @@
+.cl_main {
+  background-color: #151515;
+  padding: 16px 32px 32px 32px;
+  margin: 0 7.5% 20px 7.5%;
+  display: grid;
+  grid-gap: 32px;
+  border-radius: 20px;
+}
+.cl_sub {
+  color: #b3b3b3;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
+  overflow-y: hidden;
+  grid-template-rows: auto 1fr;
+}
+.cl_head {
+  grid-column: 1/-1;
+}
+.cl_name {
+  color: #fff;
+  text-align: center;
+}

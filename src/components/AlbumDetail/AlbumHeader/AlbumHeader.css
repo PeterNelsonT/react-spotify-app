@@ -1,0 +1,45 @@
+.tracklist-top-align {
+  text-align: center;
+}
+img.testimg {
+  width: 232px;
+  height: 232px;
+  padding: 20px 20px 0px 0px;
+}
+.alb_con {
+  margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+@media (min-width: 500px) {
+  .alb_con {
+    flex-direction: row;
+    width: 80%;
+    text-align: unset;
+  }
+}
+.test {
+  margin: 0 auto;
+}
+@media (min-width: 500px) {
+  .test {
+    margin: 0;
+  }
+}
+.alb_desc {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.alb_other {
+  font-size: 14px;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+.alb_name {
+  color: #fff;
+}

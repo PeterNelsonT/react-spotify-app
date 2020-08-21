@@ -1,0 +1,38 @@
+.Root__top-bar {
+  margin: 0 0 20px 0;
+  height: 60px;
+  z-index: 2;
+  background-color: #070707;
+  position: fixed;
+  width: 100%;
+}
+.head_toolbar {
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  z-index: 3;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.spotify-logo--text {
+  color: #fff;
+  box-sizing: border-box;
+  width: 100px;
+  height: 40px;
+}
+
+@media (min-width: 500px) {
+  .spotify-logo--text {
+    width: 131px;
+  }
+  .head_toolbar {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}

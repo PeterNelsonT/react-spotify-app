@@ -1,0 +1,14 @@
+.butn {
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.Login {
+  text-align: center;
+}
